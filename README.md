@@ -13,4 +13,6 @@ Here are some ideas that I want to achieve as my final project. Some of it I ask
   
 3. Design a digital art tool where the pressure on force sensors controls brush size, color intensity, or pattern complexity on a canvas.
    Influenced by a student's use of shaders to express concepts in the mid-term, I hope I can use pressure from force sensors to control variables in shader functions, altering brush size, color intensity, or pattern complexity. Additionally, inspired by a recent performance art piece on the dynamics of dominance and submission, visualizing how pressure on skin can translate into sensations of pain or pleasure could offer a compelling exploration of physical and emotional interaction.
+
+   
    <img width="265" alt="image" src="https://github.com/user-attachments/assets/f7a35e5d-1a5e-4dc4-86d2-ed25e2d47ab7">
