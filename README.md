@@ -8,9 +8,9 @@ Here are some ideas that I want to achieve as my final project. Some of it I ask
 
 
 2. A narrative-driven system where users make choices that change the storyline or visuals
-  I designed a RPG game before, and what is interesting is not about how beautiful the game interface is (it matters!), but how can the player interact with the game really matters. Human can hardly remember the times when they push the bottom too much, I think I will secretly calculate the bottom times and pop up some interesting sub-story. And push the bottom also will change the storyline，the botton is binary, but within enough selection, the story can be completely different.(But I'm a little bit afriad that there are too many "if" appear in my code)
+  Drawing from my experience designing an RPG game, this system allows users to influence the storyline through their choices. The focus isn't just on the aesthetics of the game interface but on how players interact with it. By secretly tracking the number of button presses, I plan to introduce hidden sub-stories, demonstrating that while choices may seem binary, they can lead to vastly different narrative outcomes.(But I'm a little bit afriad that there are too many "if" appear in my code)
+   <img width="734" alt="image" src="https://github.com/user-attachments/assets/eccfdf13-9f17-4016-b961-ac0b89805c8c">
   
-  
-4. Design a digital art tool where the pressure on force sensors controls brush size, color intensity, or pattern complexity on a canvas.
-   I like mid-term a student use Shaders as his way to convey concept, if I can utilize the pressure to control the 参数 from shader function, I think it would be cool. And also last week I went to a 行为艺术，关于施虐与受虐的，对他人的皮肤产生的压力如何转化为痛感或者快感，将它们可视化会非常有意思。
+3. Design a digital art tool where the pressure on force sensors controls brush size, color intensity, or pattern complexity on a canvas.
+   Influenced by a student's use of shaders to express concepts in the mid-term, I hope I can use pressure from force sensors to control variables in shader functions, altering brush size, color intensity, or pattern complexity. Additionally, inspired by a recent performance art piece on the dynamics of dominance and submission, visualizing how pressure on skin can translate into sensations of pain or pleasure could offer a compelling exploration of physical and emotional interaction.
    <img width="265" alt="image" src="https://github.com/user-attachments/assets/f7a35e5d-1a5e-4dc4-86d2-ed25e2d47ab7">
