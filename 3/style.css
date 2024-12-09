@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: transparent;
+    position: relative;
+  }
+  
+  .shaderpark-canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: transparent; /* 如果想让canvas本身无背景 */
+  }
+  
