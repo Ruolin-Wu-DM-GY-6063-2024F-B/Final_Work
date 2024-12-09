@@ -1,4 +1,7 @@
-# Final_Work Milestone 02
+# Final_Work_Milestone 03
+
+
+### Final_Work Milestone 02
 1. High-level system diagram:
 I think I will choose the the third one, the shader and the force sensors. I think I will use p5js to create a interactive pattern in particularly present as shader art way. But every interactive the user make is by using the Arduino, they can see how their interact with arduino takes effect on the canvas. And also I'm thinking that I can add some music into the project, like every press it will have a sound, also align with the hardness of the force sensor provide.
 This is my thoughts of how my project is like:

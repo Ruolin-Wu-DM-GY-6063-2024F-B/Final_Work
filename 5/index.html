@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shader Park + p5.js + Arduino Integration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas class="shaderpark-canvas"></canvas>
+
+  <!-- Slider for gyScale -->
+  <input type="range" id="gyScaleSlider" min="3" max="10" value="6.8" step="0.1" style="position:absolute; top:50px; left:10px; z-index:2;">
+
+  <!-- Color controlled by potVal, not used directly now -->
+  <input type="color" id="colorPickerHTML" value="#ff0000" style="position:absolute; top:10px; left:10px; z-index:2;">
+
+  <script type="module">
+    import { sculptToMinimalRenderer } from 'https://unpkg.com/shader-park-core/dist/shader-park-core.esm.js';
+    import { spCode } from './spCode.js';
+
+    let canvas = document.querySelector('.shaderpark-canvas');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    let spRenderer = sculptToMinimalRenderer(canvas, spCode);
+
+    window.spRenderer = spRenderer;
+
+    window.addEventListener('resize', () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    });
+
+    document.getElementById('gyScaleSlider').addEventListener('input', (e) => {
+      let val = parseFloat(e.target.value);
+      spRenderer.setInput('gyScale', val);
+    });
+  </script>
+
+  <!-- p5.js Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/addons/p5.dom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/addons/p5.sound.min.js"></script>
+  <!-- p5.webserial -->
+  <script src="https://unpkg.com/@gohai/p5.webserial@^1/libraries/p5.webserial.js"></script>
+  
+  <!-- p5.js Code -->
+  <script src="sketch.js"></script>
+</body>
+</html>
