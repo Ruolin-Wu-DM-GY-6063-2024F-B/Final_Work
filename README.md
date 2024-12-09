@@ -1,6 +1,16 @@
 # Final_Work_Milestone 03
+Finally complete with the code!!(kind of)
+I use the external external libraries called sharppark, but it does not fit well with the P5js, so I struggled for a lot time on how to use it and connect the code with the html.
+There is five document in this week's submission, and the third one is the final canvas that I want to present, and I want to use the force sensor to change the gyScale
+For example, this is the gyScale=1:
+![alt text](image-2.png)
+and this is the gyScale = 6
+![alt text](image-3.png)
 
+But I dont know why if I want to add input on the spCode, the canvas does not show up, take 4, the original source as example, the tutorial of the shaderpark in html does not correspond if the file has input:
+![alt text](image-4.png)
 
+And the file 5 is with the arduino code, my amazon package of the force sensor will deliver at wednesday this week, I will try it then.
 ### Final_Work Milestone 02
 1. High-level system diagram:
 I think I will choose the the third one, the shader and the force sensors. I think I will use p5js to create a interactive pattern in particularly present as shader art way. But every interactive the user make is by using the Arduino, they can see how their interact with arduino takes effect on the canvas. And also I'm thinking that I can add some music into the project, like every press it will have a sound, also align with the hardness of the force sensor provide.
